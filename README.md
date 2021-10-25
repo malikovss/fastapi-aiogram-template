@@ -7,4 +7,4 @@
   * change [.env](/.env) file. You can not use this project on local machine but you can run it with [ngrok](https://ngrok.com/). Change [HOST](/.env#L1) to url which is telegram can post updates
 
 ### Running
-  * To run `poetry run app.main:app`
+  * To run `poetry run uvicorn app.main:app`
