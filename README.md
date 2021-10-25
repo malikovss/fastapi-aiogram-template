@@ -1,4 +1,4 @@
-## Template for FastAPI/Aiogram/Tortoise-orm
+## FastAPI/Aiogram/Tortoise-orm
 
 
 ### Installation
