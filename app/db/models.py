@@ -8,7 +8,7 @@ class FieldsMixin:
 
 
 class User(Model, FieldsMixin):
-    tg_id = fields.IntField(unique=True)
+    tg_id = fields.BigIntField(unique=True)
     first_name = fields.CharField(max_length=65)
     last_name = fields.CharField(max_length=65, null=True)
     tg_username = fields.CharField(max_length=65, null=True)
