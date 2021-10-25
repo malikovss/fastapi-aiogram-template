@@ -3,4 +3,4 @@
 
 ### Installing
   * clone this project
-  * install with [poetry](https://python-poetry.org/). to installation `poetry install`
+  * install with [poetry](https://python-poetry.org/). To installation `poetry install`
