@@ -5,7 +5,7 @@ description = ""
 authors = ["Suhrob <oopanndaa@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.6.1"
+python = ">=3.7, <4.0"
 aiogram = "^2.15"
 fastapi = "^0.70.0"
 uvicorn = "^0.15.0"
@@ -15,6 +15,7 @@ pydantic = {extras = ["dotenv"], version = "^1.8.2"}
 aiosqlite = "^0.17.0"
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+aerich = "^0.5.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
